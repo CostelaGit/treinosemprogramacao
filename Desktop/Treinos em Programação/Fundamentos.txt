@@ -1,0 +1,30 @@
+Comentarios:
+
+No python é criado com as seguidas formas:
+
+1- com uma linha; 
+# daqui para frente desta linha ele irá ignorar
+
+2- "comentario +linhas":
+com inicio e termino das linhas ou com ("") ou (''')
+obs: não é o ideal mas é uma forma de você comentar varias linhas;
+
+
+Print("Olá mundo") # sempre começar para "imprimir" um texto na tela 
+ou com aspas duplas ou aspas simples e nunca com inicio em duplas e termino em simples (ou vice-versa)
+
+Print("Olá mundo", 30, 0.1, 2023) # com virgula no print ele irá separar os dados e mostrar eles em ordem
+no "print()" tem como separar usando: 'sep=x' (sendo 'x' o caracter separador)
+no "print()" tem como colocar no final usando: "end='xxx'" (sendo 'x' a "frase" que vai ficar no fim)
+
+\n = QUEBRA DE LINHA
+
+{ - formatação de saidas com variaveis:
+
+print(" luiz[%s] vai utilizar um exemplo, tipo 2[%s]", % ("variavel", "variavel"))
+-----> é utilizado %(tipodedado) para poder utilizar saidas "personalizadas"
+
+print(" luiz{} vai utilizar outro exemplo, tipo{}".format("variavel","variavel"))
+-----> outra forma para saida com variaveis/constantes
+
+*concatenação de textos funciona...
