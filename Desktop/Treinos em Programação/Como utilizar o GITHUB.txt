@@ -1,0 +1,7 @@
+1. Inicializa o git na pasta desejada.
+2. Abre o Git bash 
+3. entre na pasta (*caso não tenha entrado) com o Git bash
+4. coloque os "arquivos/pastas" que você quer: git add "xyz"
+5. para dar commit: git commit -m "xyz"
+
+para ver status: git status
